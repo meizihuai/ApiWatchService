@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiWatchService</name>
+    </assembly>
+    <members>
+        <member name="M:ApiWatchService.HttpHelper.GetResponse(System.String,System.Int32)">
+            <summary>
+            get请求
+            </summary>
+            <param name="url"></param>
+            <returns></returns>       
+        </member>
+        <member name="M:ApiWatchService.HttpHelper.PostResponse(System.String,System.String,ApiWatchService.HttpHelper.HttpParaType,System.Int32)">
+            <summary>
+            post请求
+            </summary>
+            <param name="url"></param>
+            <param name="postData">post数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiWatchService.Logger.Info(System.String,System.Exception)">
+            <summary>
+            普通日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ApiWatchService.Logger.Warn(System.String,System.Exception)">
+            <summary>
+            告警日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ApiWatchService.Logger.Error(System.String,System.Exception)">
+            <summary>
+            错误日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ApiWatchService.Controllers.CheckController.GetTime">
+            <summary>
+            获取服务器时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ApiWatchService.ILoopWorker.WorkName">
+            <summary>
+            服务名称
+            </summary>
+        </member>
+        <member name="M:ApiWatchService.ILoopWorker.Start(System.Int32)">
+            <summary>
+            开始工作
+            </summary>
+            <param name="interval">时间间隔（ms）</param>
+        </member>
+        <member name="M:ApiWatchService.ILoopWorker.DoWork">
+            <summary>
+            单次工作方法
+            </summary>
+        </member>
+        <member name="M:ApiWatchService.ILoopWorker.Stop">
+            <summary>
+            停止循环工作
+            </summary>
+        </member>
+        <member name="T:ApiWatchService.NormalResponse">
+            <summary>
+            一般返回格式,JSON格式
+            </summary>
+        </member>
+        <member name="P:ApiWatchService.NormalResponse.Result">
+            <summary>
+            处理结果，true:成功，false:失败
+            </summary>
+        </member>
+        <member name="P:ApiWatchService.NormalResponse.Msg">
+            <summary>
+            处理消息或处理过程
+            </summary>
+        </member>
+        <member name="P:ApiWatchService.NormalResponse.Errmsg">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="P:ApiWatchService.NormalResponse.Data">
+            <summary>
+            数据，可能是string或者json或者json数组
+            </summary>
+        </member>
+    </members>
+</doc>

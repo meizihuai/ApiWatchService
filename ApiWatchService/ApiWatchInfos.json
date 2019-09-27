@@ -1,0 +1,20 @@
+{
+  "ApiWatchInfos": [
+    {
+      "Url": "https://www.tsinghua-getinfo.com:6065/api/Uplan/Test",
+      "Name": "(111)Uplan"
+    },
+    {
+      "Url": "https://39.tsinghua-getinfo.com:6061/platform/check/getinfo",
+      "Name": "(39)Platform"
+    },
+    {
+      "Url": "http://123.207.31.37:6061/api/Check/Test",
+      "Name": "(123)DSGServiceCore"
+    },
+    {
+      "Url": "http://61.145.180.149:6061/api/Check/Test",
+      "Name": "(61)DSGServiceCore"
+    }
+  ]
+}
